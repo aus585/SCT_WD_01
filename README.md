@@ -15,10 +15,9 @@ A premium, animated landing page for BMW showcasing luxury, power, and performan
 
 
 ## 🔧 Tools Used
-- **HTML5**
-- **CSS3 (with Flexbox & Grid)**
-- **Vanilla JavaScript**
-- **Google Fonts (Montserrat)**
+- **HTML**
+- **CSS**
+- **JavaScript**
 - **Custom media assets (video, images, sound)**
 
 
