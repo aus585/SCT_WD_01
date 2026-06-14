@@ -1,6 +1,4 @@
-    <!-- === custom css ====  -->
-   
-      /* navigation bar css code  */
+    /* navigation bar css code  */
       :root {
         --main-black: #111;
         --main-white: #fff;
@@ -594,8 +592,8 @@
         }
       }
 
-      /* ======================= */
-/* 📱 Mobile Responsiveness */
+/* ======================= */
+/*  Mobile Responsiveness */
 /* ======================= */
 @media (max-width: 768px) {
   /* Navigation */
@@ -714,39 +712,5 @@
     margin: 5px 0;
     font-size: 13px;
   }
-}
-/* nav bar text */
-nav .logo span {
-    color: #fff !important;
-}
-
-nav ul li {
-    color: #fff !important;
-}
-
-nav ul li:hover {
-    color: #c6ff00 !important;
-}
-
-/* ========================= */
-/* Hero Text Color Fix */
-/* ========================= */
-
-.hero .overlay {
-    position: relative;
-    z-index: 10;
-    color: #fff;
-}
-
-.hero .overlay h1 {
-    color: #fff !important;
-}
-
-.hero .overlay h1 span {
-    color: #c6ff00 !important;
-}
-
-.hero .overlay p {
-    color: #fff !important;
 }
 
