@@ -716,3 +716,24 @@
   }
 }
 
+nav {
+    color: #fff;
+}
+
+nav .logo span {
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li {
+    color: #fff;
+}
+
+nav ul li:hover {
+    color: #c6ff00;
+}
+
+nav ul li::after {
+    background: #c6ff00;
+}
+
