@@ -1,3 +1,4 @@
+  <!-- navbar scroll chnage colour code  -->
       const navbar = document.getElementById("navbar");
       const body = document.body;
       window.addEventListener("scroll", () => {
@@ -6,7 +7,6 @@
       window.addEventListener("scroll", () => {
         navbar.classList.toggle("scrolled", window.scrollY > 50);
       });
-    </script>
 
     <!-- background video sound mute/unmute code -->
     <script>
@@ -19,10 +19,8 @@
           heroVideo.muted = true;
         }
       });
-    </script>
 
     <!-- engine button (sound on and off code) -->
-    <script>
       const engineBtn = document.getElementById("engineBtn");
       const engineSound = document.getElementById("engineSound");
 
@@ -39,7 +37,6 @@
           isPlaying = false;
         }
       });
-    </script>
 
     <!-- watermark apper code -->
     <script>
