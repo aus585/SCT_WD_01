@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To Do List Web App</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+ <body>
+    <!-- ==== custom html code ==== -->
+    <!-- nav bar html code  -->
+    <nav id="navbar">
+      <div class="logo">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
+          alt="BMW Logo"
+        />
+        <span>BMW</span>
+      </div>
+      <ul>
+        <li>Home</li>
+        <li>Feature</li>
+        <li>Models</li>
+        <li>Find Us</li>
+      </ul>
+    </nav>
+
+    <!-- background video html code  -->
+    <section class="hero" id="video-section">
+      <video id="heroVideo" autoplay muted loop playsinline preload="auto">
+        <source
+          src="video.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <!-- overlay text html code in the video -->
+      <div class="overlay">
+        <h1>Unleash the <span>Power</span></h1>
+        <p>Redefining performance and design</p>
+      </div>
+    </section>
+    <!-- the egnine button html code -->
+    <div class="engine-wrapper">
+      <div class="tire-side left-tire"></div>
+
+      <div class="engine-button" id="engineBtn">
+        <span class="btn-label">START / STOP</span>
+        <div class="pulse-ring"></div>
+        <div class="smoke" id="smokeEffect"></div>
+      </div>
+
+      <div class="tire-side right-tire"></div>
+
+      <audio id="engineSound" src="sound.mp3"></audio>
+    </div>
+
+    <!-- car-cards and the text html code -->
+    <section class="car-showcase">
+      <div class="car-intro">
+        <h2>ALWAYS BMW</h2>
+        <p>FOR THE ROAD CHOICE</p>
+      </div>
+      <div class="car-gallery">
+        <div class="car-card">
+          <img src="image 1.jpeg" alt="Car" />
+          <div class="info">
+            <h4>BMW M8</h4>
+            <p>
+              The BMW M8 is a high-performance luxury coupe with 617 hp, bold
+              design, advanced tech, and supercar-level speed.
+            </p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="image 2 .jpeg" alt="Car" />
+          <div class="info">
+            <h4>BMW i7</h4>
+            <p>
+              The BMW i7 is a premium electric sedan with up to 536 hp, a
+              500–625 km range, a luxury tech-rich interior, and a sleek, modern
+              design.
+            </p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="image 3.jpeg" alt="Car" />
+          <div class="info">
+            <h4>BMW M4 Competition</h4>
+            <p>
+              The BMW M4 Competition is a powerful sports coupe with 503 hp,
+              aggressive design, advanced tech, and track-ready performance.
+            </p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="image 4.jpeg" alt="Car" />
+          <div class="info">
+            <h4>BMW iX</h4>
+            <p>
+              The BMW iX is a fully electric luxury SUV with up to 516 hp,
+              futuristic design, advanced tech, and a range of up to 630 km.
+            </p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="image 5.jpeg" alt="Car" />
+          <div class="info">
+            <h4>BMW Z4</h4>
+            <p>
+              The BMW Z4 is a stylish roadster with up to 382 hp, sporty
+              handling, open-top driving, and modern tech in a sleek, compact
+              design.
+            </p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="image 6.jpeg" alt="Car" />
+          <div class="info">
+            <h4>BMW XM</h4>
+            <p>
+              The BMW XM is a high-performance plug-in hybrid SUV with up to 738
+              hp, bold and aggressive design, advanced luxury features, and a
+              blend of electric efficiency with M-level power.
+            </p>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="image 7.jpeg" alt="Car" />
+          <div class="info">
+            <h4>BMW X7</h4>
+            <p>
+              The BMW X7 is a full-size luxury SUV with up to 523 hp, three-row
+              seating, advanced technology, and a refined, spacious interior
+              designed for comfort and performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- watermark below the car-card section html code  -->
+    <div class="watermark-container">
+      <div class="watermark-text">
+        <h2 class="watermark-title">BMW IS MORE THAN A CAR</h2>
+        <p class="watermark-subtext">
+          It's a symbol of innovation, performance, and timeless design. <br />
+          From engineering precision to luxurious comfort, every BMW is built to
+          elevate your driving experience.
+        </p>
+      </div>
+    </div>
+
+    <!-- feature card section html code -->
+    <section class="features">
+      <div class="feature-card">
+        <div class="number">01.</div>
+        <h3>Precision Engineering</h3>
+        <p>
+          Engineered for accurate control and smooth performance on every road.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="number">02.</div>
+        <h3>Bold Design</h3>
+        <p>Iconic looks with a modern, aerodynamic touch that turns heads.</p>
+      </div>
+      <div class="feature-card">
+        <div class="number">03.</div>
+        <h3>Smart Tech</h3>
+        <p>
+          Equipped with intelligent features for a seamless, connected drive.
+        </p>
+      </div>
+      <div class="feature-card">
+        <div class="number">04.</div>
+        <h3>Pure Comfort</h3>
+        <p>Luxurious feel and stability for an unmatched driving experience.</p>
+      </div>
+    </section>
+    <!-- text line html code below the feature-card section  -->
+    <div class="feature-text">
+      Built to Perform—Because Life Begins at
+      <span class="highlight">6000</span> RPM's.
+    </div>
+
+    <!-- cta the last section html code -->
+    <section class="cta">
+      <div class="cta-left">
+        <h2>READY TO DRIVE<br />EXCELLENCE?</h2>
+      </div>
+      <div class="cta-right">
+        <p>Experience performance, comfort, and innovation</p>
+      </div>
+      <button>Get Started</button>
+    </section>
+
+    <!-- footer code -->
+    <footer>
+      <a
+        href="https://www.bmw.in/en/topics/owners/contact-us.html" class="footer-btn" >Contact Us |</a>
+      <a href="https://www.bmw.in/en/footer/metanavigation/privacy-policy.html" class="footer-btn" >Privacy Policy |</a>
+      <a href="https://www.instagram.com/bmw?igsh=OHZvMnN5aWZ5OTUz" class="footer-btn" >Follow Us</a>
+    </footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>
